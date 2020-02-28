@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url("../fuentes/Gotham-Book.otf");
+    font-family: "Gotham-Book";
+}
+
+@font-face{
+    src: url("../fuentes/Gotham-Medium.otf");
+    font-family: "Gotham-Medium";
+}
+
+  
+body{
+    margin: 0;
+    font-family: "Gotham-Book", sans-serif;
+}
+header{
+    
+    background-image: url("../imagenes/header.png");    
+    height: 660px;
+}
+header h2{
+    color: white;
+    font-size: 62px;
+}
+header p1{
+    color: white;
+    font-size: 45px;
+}
+header p{
+    color: white;
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.subheader{
+    font-size: 16px;
+    display: flex;
+    color: gray;
+
+}
+.navbar{
+    /* width: 80%; */
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: gray;
+}
+.navbar a:hover{
+    font-size: 20px;
+  color: #935a50;
+}
+ .navbar li {
+    margin-right: 15px;
+    list-style: none;
+    margin-bottom: 198px;
+}
+.masterfogones{
+    width: 100%;
+    background-color: #935a50;
+    position: relative;
+    height: 247px;
+    display: flex;
+    margin-bottom: 403px;
+    padding-left: 213px;
+    
+    
+}
+.textofogones{
+    list-style: none;
+    color: white;
+    font-size: 53px;
+    text-align: center;
+    margin-top: 45px;
+}
+.textofogones a{
+    color: white;
+        text-decoration: none;
+}
+.textofogones a:hover{
+    
+  color: #8d8d71;
+}
+.subtifogones{
+    width: 399px;
+    height: 84px;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.fogones{
+    width: 308px;
+    height: 611px;
+    position: absolute;
+    right: 121px;
+    top: -60%;
+
+}
+.mastervaperzone{
+    width: 100%;
+    background-color: #8d8d71;
+    position: relative;
+    height: 247px;
+    display: flex;
+    margin-bottom: 403px;
+}
+.textovaperzone{
+    list-style: none;
+    padding-left: 213px;
+    color: white;
+    font-size: 53px;
+    text-align: center;
+    padding-left: 839px;
+    margin-top: 61px;
+}
+.textovaperzone a{
+    color: white;
+        text-decoration: none;
+}
+.textovaperzone a:hover{
+    
+  color:#935a50;
+}
+.subtivaperzone{
+    width: 399px;
+    height: 56px;
+    font-size: 28px;
+    text-align: center;
+}
+.vaperzone{
+    width: 775px;
+    height: 400px;
+    position: absolute;
+    left: 5%;
+    top: -25%;
+}
+.instagram{
+    width: 308px;
+    height: 611px;
+    position: absolute;
+    right: 121px;
+    top: -60%;
+}
+.masterinstagram{
+    width: 100%;
+    background-color: #935a50;
+    position: relative;
+    height: 247px;
+    display: flex;
+    margin-bottom: 293px;
+}
+.textoinstagram{
+    list-style: none;
+    color: white;
+    font-size: 53px;
+    text-align: center;
+    margin-top: 47px;
+    padding-left: 114px;
+}
+.textoinstagram a{
+    color: white;
+        text-decoration: none;
+}
+.textoinstagram a:hover{
+  color: #8d8d71;
+}
+.subtiinstagram{
+    width: 399px;
+    height: 84px;
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sigueme{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 129px;
+    
+}
+
+.redessociales a{
+    margin: 0 auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.contacto{
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 100px;
+}
+.contacto a{
+        color: gray;
+        text-decoration: none;
+}
+.contacto a:hover{
+    font-size: 27px;
+    color: #935a50 ;
+}
+
+.project-name {
+    font-family: "Gotham-Medium";
+}
+
+@media only screen and (max-width: 414px) {
+    .desktop-screen{
+      display:none;
+    }
+    
+    
+    
+  }
+  
+  @media only screen and (min-width: 415px) {
+    .desktop-screen{
+      display: block;
+    }
+    .mobile-screen{
+      display: none;
+    }
+  }
