@@ -67,6 +67,48 @@ header p{
     list-style: none;
     margin-bottom: 198px;
 }
+.masterairsoft{
+    width: 100%;
+    background-color: #8d8d71;
+    position: relative;
+    height: 247px;
+    display: flex;
+    margin-bottom: 403px;
+    
+    
+}
+.textoairsoft{
+    list-style: none;
+    padding-left: 213px;
+    color: white;
+    font-size: 53px;
+    text-align: center;
+    padding-left: 839px;
+    margin-top: 45px;
+}
+.textoairsoft a{
+    color: white;
+        text-decoration: none;
+}
+.textoairsoft a:hover{
+    
+  color: #935a50;
+}
+.subtiairsoft{
+    width: 399px;
+    height: 84px;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.airsoft{
+    width: 308px;
+    height: 611px;
+    position: absolute;
+    left: 10%;
+    top: -60%;
+
+}
 .masterfogones{
     width: 100%;
     background-color: #935a50;
